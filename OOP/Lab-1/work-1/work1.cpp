@@ -23,7 +23,7 @@ public:
         cout << "Author : " << author << "\n";
         cout << "Price : " << price << "\n";
         cout << "Pages : " << pages << "\n";
-        cout << "================================\n";
+        cout << "==================================\n";
     }
 
     void applyDiscount(float discountPercent)
