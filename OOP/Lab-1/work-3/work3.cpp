@@ -22,7 +22,6 @@ public:
         cout << "Model : " << model << "\n";
         cout << "Year : " << year << "\n";
         cout << "Price : " << price << "\n";
-        // cout << "price : " << percentageMarks() << "%" << "\n";
         cout << "==============================" << "\n";
     }
 
@@ -71,6 +70,15 @@ int main()
     else
     {
         cout << "Car2 is Not Antique\n";
+    }
+
+    if (car3.isAntique(currentYear))
+    {
+        cout << "Car3 is Antique\n";
+    }
+    else
+    {
+        cout << "Car3 is Not Antique\n";
     }
     
     
